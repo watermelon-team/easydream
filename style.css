@@ -31,19 +31,19 @@ body {
 }
 
 .text-1 {
-  font-size: 4vh !important;
-}
-
-.text-2 {
   font-size: 3.5vh !important;
 }
 
-.text-3 {
+.text-2 {
   font-size: 3vh !important;
 }
 
+.text-3 {
+  font-size: 2.5vh !important;
+}
+
 .text-4 {
-  font-size: 2.8vh !important;
+  font-size: 2vh !important;
 }
 
 .text-5 {
@@ -73,7 +73,7 @@ body {
 }
 
 .profile-picture{
-  border: 5px solid var(--orange);
+  border: 3px solid var(--orange);
 }
 
 .linkedin{
@@ -84,8 +84,36 @@ body {
 /* ---------------------  DESKTOP  -------------------------------------------- */
 @media only screen and (min-width: 1024px) {
 
+  .text-1 {
+    font-size: 4vh !important;
+  }
+
+  .text-2 {
+    font-size: 3.5vh !important;
+  }
+
+  .text-3 {
+    font-size: 3vh !important;
+  }
+
+  .text-4 {
+    font-size: 2.8vh !important;
+  }
+
+  .text-5 {
+    font-size: 2.25vh !important;
+  }
+
+  .text-6 {
+    font-size: 1.75vh !important;
+  }
+
 .button-custom:hover{
   background-color: #B64900!important;
+}
+
+.profile-picture{
+  border: 5px solid var(--orange);
 }
 
 .profile-picture:hover{
