@@ -1,0 +1,110 @@
+@font-face { font-family: Futura; font-weight: 200; src: url('Futura PT/FuturaPTBook.otf'); }
+@font-face { font-family: Futura; font-weight: bold; src: url('Futura PT/FuturaPTBold.otf');}
+@font-face { font-family: Futura; font-weight: 400; src: url('Futura PT/FuturaPTMedium.otf');}
+
+
+body {
+  font-family: 'Futura', sans-serif;
+  font-weight: 200;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+:root {
+  --orange: #FF6600;
+}
+
+/* background */
+.bg-orange {
+  background-color: var(--orange);
+}
+
+/* text */
+.text-orange {
+  color: var(--orange);
+}
+
+.text-1 {
+  font-size: 4vh !important;
+}
+
+.text-2 {
+  font-size: 3.5vh !important;
+}
+
+.text-3 {
+  font-size: 3vh !important;
+}
+
+.text-4 {
+  font-size: 2.8vh !important;
+}
+
+.text-5 {
+  font-size: 2.25vh !important;
+}
+
+.text-6 {
+  font-size: 1.75vh !important;
+}
+
+
+.button-custom{
+  width: 230px;
+  background-color: var(--orange);
+  font-weight: 400;
+}
+
+.sfondo{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('assets/background2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:0!important;
+}
+
+.profile-picture{
+  border: 5px solid var(--orange);
+}
+
+.linkedin{
+  margin-top: -20px;
+  width:30px!important;
+}
+
+/* ---------------------  DESKTOP  -------------------------------------------- */
+@media only screen and (min-width: 1024px) {
+
+.button-custom:hover{
+  background-color: #B64900!important;
+}
+
+.profile-picture:hover{
+  transform:scale(110%);
+  transition: 0.3s;
+}
+
+.linkedin{
+  width: 100px;
+}
+
+.linkedin:hover{
+  transform:scale(120%);
+  transition: 0.5s;
+}
+
+
+
+
+
+
+}
